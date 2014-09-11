@@ -127,7 +127,7 @@ for (m in 1:length(years)) {
                 runGdal(product = shortname, begin = newStart,  end = endDates[m], 
                         extent = buffExtent, SDSstring = layer,outProj = proj, 
                         pixelSize = cellSize, job = years[m], quiet = T)
-                print(paste("restarting",year[m]))
+                print(paste("***********restarting",year[m],'*****************'))
             } else {
                 # check finished, year run successful. Turn check off.
                 checkDone <- 0  
@@ -135,3 +135,5 @@ for (m in 1:length(years)) {
         }
     }
 }
+
+print('Finished')
