@@ -6,6 +6,8 @@ currently set up to process MODIS LAI data products, but should work with any
 MODIS product by changing the `shortname` variable based on the 
 [MODIS Product List](https://lpdaac.usgs.gov/products/modis_products_table).
 
+People not in my lab should use GetModis_gen.R
+
 ### Depends
 #### MODIS package
 This script uses the MODIS package currently on R-Forge (pre-release) at  
